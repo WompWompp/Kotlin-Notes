@@ -92,7 +92,7 @@ fun main() {
 
 // Hashmap
 
-fun main(){
+//fun main(){
     //key value logic
 
     //val cityArray = arrayOf("ankara","istanbul")
@@ -111,11 +111,115 @@ fun main(){
    // val myHashMap = hashMapOf<Int,String>(1 to "monday",2 to "tuesday",3 to "wednesday")
     //myHashMap[4]="thursday"
 
+//}
+
+//// Operators
+
+//fun main() {
+    //+= -=
+/*    var num1 = 5
+    println(num1)
+    num1 = num1+1
+    println(num1)
+    num1+=1
+    println(num1)
+    num1++
+    println(num1)
+    num1--
+    println(num1)
+*/
+    /*
+    println(2==2)
+    println(2==3)
+    println(2!=3)
+    println(2!=2)
+    println(2>3)
+    println(2<3)
+    println(2>=3)
+    println(3<=3)
+    */
+
+    //println(2>1 && 1>0)
+   // println(2>2 && 1>0)
+    //%
+    //println(10%3)
+    //? !! for avoding null point exception
+    //? safe call
+    //val num1:String? = null
+    //println(num1?.length)
+    //?
+    //var name:String? = null
+    //println(name?.length ?: 2)
+
+//}
+
+// if cases
+/*
+fun main() {
+
+    val myAge = 23
+
+    if (myAge<18){
+        println("You can't vote")
+    }else{
+        println("You can vote")
+    }
 }
 
+*/
+/*
+fun main(){
 
+    val degree = 150
 
+    if (degree<0){
+        println("Ice")
+    }else if (degree>0 && degree<100){
+        println("Liquid")
+    }else{
+        println("Gas")
+    }
 
+}
+*/
+/*
+fun main() {
 
+    val list = listOf("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+    val day = list.random()
+    if (day == "Monday") {
+        println("It's the first day of the week")
+    } else if (day == "Tuesday") {
+        println("It's the second day of the week")
+    } else if (day == "Wednesday") {
+        println("It's the third day of the week")
+    } else if (day == "Thursday") {
+        println("It's the fourth day of the week")
+    } else if (day == "Friday"){
+        println("It's the fifth day of the week")
+    } else if (day =="Saturday"){
+        println("It's the sixth day of the week")
+    } else {
+        println("It's the seventh day of the week")
+    }
+}
+ */
 
+// switch when
 
+fun main() {
+
+    val list = listOf(1,2,3,4,5,6,7)
+    val day = list.random()
+
+    when(day){
+        1-> println("Monday")
+        2-> println("Tuesday")
+        3-> println("Wednesday")
+        4-> println("Thursday")
+        5-> println("Friday")
+        6-> println("Saturday")
+        7-> println("Sunday")
+    }
+
+}
